@@ -1,148 +1,58 @@
-/*
-Author: Kristen Avery
-Date: 09/19/2022
-File Name: styles.css
-*/
+<!DOCTYPE html>
+<!--
+  Student Name: Kristen Avery
+  File Name: contact.html
+  Date: 09/19/2022
+-->
+<html lang="en">
 
-/* CSS Reset */
-body, header, nav, main, footer, img, h1, h3, ul {
-		margin: 0;
-		padding: 0;
-		border: 0;
-}
+<head>
+  <title>Wild Rescues: Contact</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Lora&display=swap" rel="stylesheet">
+</head>
 
-/* Style rules for body and images */
-body {
-		background-color: #f6eee4;
-}
+<body>
+  <div id="wrapper">
+    <header>
+      <div class="tab-desk">
+      <a href="index.html"><img src="images/baby-hawk.jpg" alt="rescued baby hawk"></a>
+    </div>
+    <div class="mobile">
+      <h1>&#128062; Wild Rescues</h1>
+      <h3>Rescue. Rehabilitate. Release.</h3>
+    </div>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="partnership.html">Partnership</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
 
-img {
-		max-width: 100%;
-		display: block;
-}
+    <!-- Use the main area to add the main content to the webpage -->
+    <main>
+      <div id="contact">
+        <h2>You can reach us at:</h2>
+        <p class="tel-link round mobile"><a href="tel:8145558989">(814) 555-8989</a></p>
+        <p class="tab-desk">(814) 555-8989</p>
+        <p>Email: <a href="mailto: contact@wildrescues.net" class="link">contact@wildrescues.net</a></p>
+        <p>Address: <a href="https://goo.gl/maps/BTJzjc2tALd4RDWA8" target="_blank" class="link">8989 Rescue Drive, Ocala, FL 34471</a></p>
+      </div>
+    </main>
 
-/* Style rules for mobile viewport */
+    <footer>
+      <p>&copy; Copyright 2021. All Rights Reserved.</p>
+      <p><a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a></p>
+    </footer>
+  </div>
 
-/* Style rules to show mobile class and hide tab-desk class */
-.mobile {
-		display: block;
-}
+</body>
 
-.tab-desk {
-		display: none;
-}
-
-/* Style rules for header area */
-.mobile h1 {
-		padding: 2%;
-		text-align: center;
-		font-family: 'Emblema One', cursive;
-}
-
-.mobile h3 {
-		padding: 2%;
-		text-align: center;
-		font-family: 'Lora', serif;
-}
-
-/* Style rules for navigation area */
-nav {
-		background-color: #2a1f14;
-}
-
-nav ul {
-		list-style-type: none;
-		text-align: center;
-}
-
-nav li {
-		display: block;
-		border-top: .5px solid #f6eee4;
-		font-size: 1.5em;
-		font-family: Geneva, Arial, sans-serif;
-		font-weight: bold;
-}
-
-nav li a {
-		display: block;
-		color: #f6eee4;
-		padding-top: 0.5em;
-		padding-bottom: 0.5em;
-		padding-left: 2em;
-		padding-right: 2em;
-    text-decoration: none;
-}
-
-/*Style rules for main content */
-main {
-		padding: 2%;
-		font-family: 'Lora', serif;
-}
-
-main p {
-		font-size: 1.25em;
-}
-
-main h3 {
-		padding-top: 2%;
-}
-
-main ul {
-		list-style-type: square;
-}
-
-/* Style rules for class and id selectors */
-.link {
-		color: #4d3319;
-		text-decoration: none;
-		font-weight: bold;
-		font-style: italic;
-}
-
-.action {
-		font-size: 1.75em;
-		font-weight: bold;
-		text-align: center;
-}
-
-.round {
-		border-radius: 6px;
-}
-
-#info ul{
-		margin-left: 10%;
-}
-
-#contact {
-		text-align: center;
-}
-
-.tel-link {
-		background-color: #2a1f14;
-		padding: 2%;
-		width: 80%;
-		margin: 0% auto;
-}
-
-.tel-link a {
-		color: #f6eee4;
-		text-decoration: none;
-		font-weight: bold;
-}
-
-/* Style rules for footer content */
-footer {
-		text-align: center;
-		font-size: 0.85em;
-		background-color: #2a1f14;
-		color: #f6eee4;
-		padding-top: 1%;
-		padding-bottom: 1%;
-		padding-left: 0%;
-		padding-right: 0%;
-}
-
-footer a {
-		color: #f3e6d8;
-		text-decoration: none;
-}
+</html>
